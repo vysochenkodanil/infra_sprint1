@@ -2,9 +2,9 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(os.path.join(BASE_DIR.parent, '.env'))
 
-KEY = os.getenv('key')
+SECRET_KEY = os.getenv('key')
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
