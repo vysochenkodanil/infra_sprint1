@@ -1,0 +1,5 @@
+IP: 89.169.170.50;
+name_taski: https://czzzrcoooll.zapto.org;
+name_kittygram: https://czzzrcoooll-1.zapto.org;
+login: Danil;
+password: 123456admin;
